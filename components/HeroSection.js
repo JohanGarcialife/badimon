@@ -15,8 +15,8 @@ export default function HeroSection() {
           <p className=" text-center text-white font-bold">
             SERVING ALL South Florida
           </p>
-          <div className="w-fit px-5 py-3 bg-green-500 rounded-full cursor-pointer hover:text-lg">
-            <p className="text-white font-bold">Prices</p>
+          <div className="w-fit px-5 py-3 bg-green-500 rounded-full cursor-pointer hover:text-xl">
+            <p className="text-white font-bold text-lg">Prices</p>
           </div>
         </div>
         <div className="w-1/2 items-center justify-center space-y-10">

@@ -14,8 +14,8 @@ export default function Slider() {
     arrows: false,
   };
   return (
-    <div className="overflow-hidden mb-10">
-      <h2 className="text-[#0099ff] text-5xl font-bold text-center mb-10">
+    <div className="overflow-hidden my-20">
+      <h2 className="text-primary text-5xl font-bold text-center mb-10">
         Real Estate Photography work
       </h2>
       <SliderSlick {...settings}>
