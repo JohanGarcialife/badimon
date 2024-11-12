@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FaHandPointDown } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
@@ -15,8 +16,9 @@ export default function HeroSection() {
           <p className=" text-center text-white font-bold">
             SERVING ALL South Florida
           </p>
-          <div className="w-fit px-5 py-3 bg-green-500 rounded-full cursor-pointer hover:text-xl">
+          <div className=" px-5 py-3 bg-green-500 rounded-full cursor-pointer hover:text-xl flex items-center space-x-2 ">
             <p className="text-white font-bold text-lg">Prices</p>
+            <FaHandPointDown className="text-white text-lg" />
           </div>
         </div>
         <div className="w-1/2 items-center justify-center space-y-10">

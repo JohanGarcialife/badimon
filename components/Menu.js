@@ -1,5 +1,6 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import { FaPhone } from "react-icons/fa6";
 
 export default function Menu() {
   return (
@@ -39,9 +40,12 @@ export default function Menu() {
             Contact Us
           </p>
           <div className="border-l-2 border-white px-5">
-            <p className="text-white font-bold cursor-pointer hover:opacity-50">
-              866-868-1990
-            </p>
+            <div className="flex items-center space-x-2">
+              <FaPhone className="text-white" />
+              <p className="text-white font-bold cursor-pointer hover:opacity-50">
+                866-868-1990
+              </p>
+            </div>
           </div>
         </div>
       </div>
