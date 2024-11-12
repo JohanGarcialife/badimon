@@ -7,8 +7,10 @@ import {
   FaSpotify,
   FaPinterest,
   FaYelp,
+  FaPhone,
 } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
+import { MdMail, MdPlace } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -18,15 +20,16 @@ export default function Footer() {
           <p className="text-primary font-bold text-xl mb-5">Contact Us</p>
           <div className="space-y-2">
             <div className="flex items-center justify-center space-x-3">
-              <p className="text-black">1</p>
+              <FaPhone className="text-black" />
               <p className="text-black font-bold">(866)868-1990</p>
             </div>
             <div className="flex items-center justify-center space-x-3">
-              <p className="text-black">1</p>
+              <MdMail className="text-black" />
+
               <p className="text-black font-bold">info@badimongroup.com</p>
             </div>
             <div className="flex items-center justify-center space-x-3">
-              <p className="text-black">1</p>
+              <MdPlace className="text-black" />
               <p className="text-black font-bold">Delray Beach | Florida |</p>
             </div>
             <div className="flex items-center justify-center mt-3">
