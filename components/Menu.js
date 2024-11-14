@@ -4,8 +4,8 @@ import { FaPhone } from "react-icons/fa6";
 
 export default function Menu() {
   return (
-    <div className="absolute px-12 py-5 z-50 w-screen">
-      <div className="flex items-center justify-between">
+    <div className="absolute px-12 py-5 z-50 w-full">
+      <div className="flex items-center justify-between max-w-screen">
         <div>
           <Image
             src={"/images/Colorlogo-nobackground.png"}

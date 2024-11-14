@@ -1,20 +1,22 @@
 import Booking from "@/components/Booking";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Menu from "@/components/Menu";
-import Slider from "@/components/Slider";
+import Reviews from "@/components/Reviews";
+import Gallery from "@/components/Gallery";
 import VideoBanner from "@/components/VideoBanner";
+import Info from "@/components/Info";
 
 export default function Home() {
   return (
     <div className="bg-white min-h-screen">
       <Menu />
       <HeroSection />
-      <Slider />
+      <Reviews />
+      <Info />
+      <Gallery />
       <VideoBanner />
       <Booking />
-      <Contact />
       <Footer />
     </div>
   );

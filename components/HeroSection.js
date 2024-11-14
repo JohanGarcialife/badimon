@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { FaHandPointDown } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
-    <div className=" px-12 py-24  bg-[url('../public/hero-bg.svg')] bg-cover">
+    <div className=" px-12 py-24  bg-[url('../public/hero-bg.svg')] bg-cover  ">
       <div className="py-12 flex items-center justify-between">
         <div className="w-1/2 flex flex-col items-center space-y-10">
           <p className="text-lg text-center text-white font-bold">
@@ -16,9 +16,9 @@ export default function HeroSection() {
           <p className=" text-center text-white font-bold">
             SERVING ALL South Florida
           </p>
-          <div className=" px-5 py-3 bg-green-500 rounded-full cursor-pointer hover:text-xl flex items-center space-x-2 ">
+          <div className="shadow-[0_0px_3px_3px_rgba(0,0,0,0.1)] px-5 py-3 bg-green-500 rounded-full cursor-pointer hover:text-xl flex items-center space-x-2 ">
             <p className="text-white font-bold text-lg">Prices</p>
-            <FaHandPointDown className="text-white text-lg" />
+            <FaAngleDown className="text-white text-lg" />
           </div>
         </div>
         <div className="w-1/2 items-center justify-center space-y-10">

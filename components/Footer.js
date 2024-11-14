@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <div className="bg-[url('../public/footer-bg.svg')] bg-cover py-10 flex flex-col items-center justify-center">
       <div className="grid grid-cols-3 gap-12 p-12 w-full ">
-        <div className="w-full bg-white shadow-xl p-5 rounded-lg text-center">
+        <div className="w-full bg-white shadow-[0_0px_10px_10px_rgba(0,0,0,0.1)] p-5 rounded-lg text-center">
           <p className="text-primary font-bold text-xl mb-5">Contact Us</p>
           <div className="space-y-2">
             <div className="flex items-center justify-center space-x-3">
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="w-full bg-white shadow-xl p-5 rounded-lg space-y-5 text-center">
+        <div className="w-full bg-white shadow-[0_0px_10px_10px_rgba(0,0,0,0.1)] p-5 rounded-lg space-y-5 text-center">
           <p className="text-primary font-bold text-xl mb-5">Follow Us</p>
 
           <div className="flex items-center justify-center space-x-3">
@@ -81,7 +81,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="w-full bg-white shadow-xl flex justify-center items-center p-5 rounded-lg text-center">
+        <div className="w-full bg-white shadow-[0_0px_10px_10px_rgba(0,0,0,0.1)] flex justify-center items-center p-5 rounded-lg text-center">
           <Image
             src={"/images/Colorlogo-nobackground.png"}
             width={500}
