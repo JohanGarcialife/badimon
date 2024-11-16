@@ -24,7 +24,7 @@ export default function Reviews() {
               //   className="rounded-tl-full rounded-br-full"
             />
           </div>
-          <p className="font-bold text-gray-300 text-3xl">
+          <p className="font-bold text-gray-400 text-3xl">
             Calificado por:{" "}
             <span className="font-bold text-primary text-3xl">62 personas</span>
           </p>
@@ -47,7 +47,7 @@ export default function Reviews() {
               //   className="rounded-tl-full rounded-br-full"
             />
           </div>
-          <p className="font-bold text-gray-300 text-3xl">
+          <p className="font-bold text-gray-400 text-3xl">
             Calificado por:{" "}
             <span className="font-bold text-primary text-3xl">62 personas</span>
           </p>
