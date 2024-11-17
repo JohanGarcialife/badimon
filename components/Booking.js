@@ -6,7 +6,7 @@ export default function Booking() {
   return (
     <div className="bg-[url('../public/booking-bg.svg')] bg-cover min-h-screen flex-col items-center justify-center  p-12 ">
       <div className="w-full flex justify-center items-center">
-        <div className="bg-white rounded-lg max-h-[600px] min-h-fit min-w-[700px] max-w-[700px] shadow-2xl p-10 space-y-5">
+        <div className="bg-white rounded-lg md:max-h-[600px] max-h-72 min-h-fit md:min-w-[700px] min-w-80 max-w-80 md:max-w-[700px] shadow-2xl p-10 space-y-5">
           <div className="border-b border-gray-400 pb-5">
             {step <= 2 && (
               <>
@@ -28,49 +28,49 @@ export default function Booking() {
           </div>
 
           <div className="max-h-[400px] overflow-scroll space-y-5 scrollbar-hidden">
-            <div className="flex justify-between items-center p-3 border border-gray-300 hover:border-primary hover:opacity-50 hover:cursor-pointer space-x-10 rounded-xl">
+            <div className="flex justify-between items-center p-3 border border-gray-300 hover:border-primary hover:opacity-50 hover:cursor-pointer space-x-5 md:space-x-10 rounded-xl">
               <Image
                 src={"/images/DJI_0373.jpg"}
                 width={40}
                 height={40}
                 alt="Photo"
-                className="h-16 w-20 overflow-hidden rounded-lg"
+                className="md:h-16 md:w-20 h-10 w-12 overflow-hidden rounded-lg"
               />
               <div className="flex justify-between place-items-center w-full">
-                <p className="text-black font-bold text-lg">
+                <p className="text-black font-bold text-md:lg">
                   Residential Property
                 </p>
-                <p className="text-gray-500">9 Services</p>
+                <p className="text-gray-500 text-sm md:text-base">9 Services</p>
               </div>
             </div>
-            <div className="flex justify-between items-center p-3 border border-gray-300 hover:border-primary hover:opacity-50 hover:cursor-pointer space-x-10 rounded-xl">
+            <div className="flex justify-between items-center p-3 border border-gray-300 hover:border-primary hover:opacity-50 hover:cursor-pointer space-x-5 md:space-x-10 rounded-xl">
               <Image
                 src={"/images/DJI_0373.jpg"}
                 width={40}
                 height={40}
                 alt="Photo"
-                className="h-16 w-20 overflow-hidden rounded-lg"
+                className="md:h-16 md:w-20 h-10 w-12 overflow-hidden rounded-lg"
               />
               <div className="flex justify-between place-items-center w-full">
-                <p className="text-black font-bold text-lg">
+                <p className="text-black font-bold text-md:lg">
                   Residential Property
                 </p>
-                <p className="text-gray-500">9 Services</p>
+                <p className="text-gray-500 text-sm md:text-base">9 Services</p>
               </div>
             </div>
-            <div className="flex justify-between items-center p-3 border border-gray-300 hover:border-primary hover:opacity-50 hover:cursor-pointer space-x-10 rounded-xl">
+            <div className="flex justify-between items-center p-3 border border-gray-300 hover:border-primary hover:opacity-50 hover:cursor-pointer space-x-5 md:space-x-10 rounded-xl">
               <Image
                 src={"/images/DJI_0373.jpg"}
                 width={40}
                 height={40}
                 alt="Photo"
-                className="h-16 w-20 overflow-hidden rounded-lg"
+                className="md:h-16 md:w-20 h-10 w-12 overflow-hidden rounded-lg"
               />
               <div className="flex justify-between place-items-center w-full">
-                <p className="text-black font-bold text-lg">
+                <p className="text-black font-bold text-md:lg">
                   Residential Property
                 </p>
-                <p className="text-gray-500">9 Services</p>
+                <p className="text-gray-500 text-sm md:text-base">9 Services</p>
               </div>
             </div>
             <div className="w-full flex items-center justify-between">

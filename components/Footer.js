@@ -15,7 +15,7 @@ import { MdMail, MdPlace } from "react-icons/md";
 export default function Footer() {
   return (
     <div className="bg-[url('../public/footer-bg.svg')] bg-cover py-10 flex flex-col items-center justify-center">
-      <div className="grid grid-cols-3 gap-12 p-12 w-full ">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-12 p-12 w-full ">
         <div className="w-full bg-white shadow-[0_0px_10px_10px_rgba(0,0,0,0.1)] p-5 rounded-lg text-center">
           <p className="text-primary font-bold text-xl mb-5">Contact Us</p>
           <div className="space-y-2">
@@ -54,29 +54,29 @@ export default function Footer() {
             <FaPinterest className="cursor-pointer text-secondary text-lg" />
             <FaYelp className="cursor-pointer text-secondary text-lg" />
           </div>
-          <div className="flex items-center justify-center space-x-1">
-            <div className="border-r border-secondary px-1 text-xs cursor-pointer">
+          <div className="grid grid-cols-2 gap-2 md:flex md:items-center md:justify-center space-x-1">
+            <div className="flex items-center justify-center md:border-r border-secondary px-1 text-xs cursor-pointer">
               <p className=" text-primary font-bold">Marketing</p>
             </div>
-            <div className="border-r border-secondary px-1 text-xs cursor-pointer">
+            <div className="flex items-center justify-center md:border-r border-secondary px-1 text-xs cursor-pointer">
               <p className=" text-primary font-bold">Social Media Management</p>
             </div>
-            <div className="border-r border-secondary px-1 text-xs cursor-pointer">
+            <div className="flex items-center justify-center md:border-r border-secondary px-1 text-xs cursor-pointer">
               <p className=" text-primary font-bold">Real Estate Photography</p>
             </div>
-            <div className="border-r border-secondary px-1 text-xs cursor-pointer">
+            <div className="flex items-center justify-center md:border-r border-secondary px-1 text-xs cursor-pointer">
               <p className=" text-primary font-bold">Web Design</p>
             </div>
-            <div className="border-r border-secondary px-1 text-xs cursor-pointer">
+            <div className="flex items-center justify-center md:border-r border-secondary px-1 text-xs cursor-pointer">
               <p className=" text-primary font-bold">PPC</p>
             </div>
-            <div className="border-r border-secondary px-1 text-xs cursor-pointer">
+            <div className="flex items-center justify-center md:border-r border-secondary px-1 text-xs cursor-pointer">
               <p className=" text-primary font-bold">Ads</p>
             </div>
-            <div className="border-r border-secondary px-1 text-xs cursor-pointer">
+            <div className="flex items-center justify-center md:border-r border-secondary px-1 text-xs cursor-pointer">
               <p className=" text-primary font-bold">SEO</p>
             </div>
-            <div className="px-1 text-xs cursor-pointer">
+            <div className="px-1 text-xs cursor-pointer ">
               <p className=" text-primary font-bold">Graphic Design</p>
             </div>
           </div>
