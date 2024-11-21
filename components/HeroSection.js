@@ -1,36 +1,43 @@
 import React from "react";
 import Image from "next/image";
 import { FaAngleDown } from "react-icons/fa";
+import { Button } from "./ui/button";
 
 export default function HeroSection() {
   return (
-    <div className=" px-12 md:py-24 py-12  bg-[url('../public/hero-bg.svg')] bg-cover  ">
-      <div className="py-12 flex-col space-y-10 md:space-y-0 md:flex items-center justify-between">
-        <div className="md:w-1/2 flex flex-col items-center space-y-10">
-          <p className="text-lg text-center text-white font-bold">
-            GET 400% MORE LEADS with Real Estate Photography!
-          </p>
-          <p className="md:text-7xl text-5xl text-center text-white font-bold">
-            #1 Real Estate Photography in South Florida
-          </p>
-          <p className=" text-center text-white font-bold">
-            SERVING ALL South Florida
-          </p>
-          <div className="shadow-[0_0px_3px_3px_rgba(0,0,0,0.1)] px-5 py-3 bg-green-500 rounded-full cursor-pointer hover:text-xl flex items-center space-x-2 ">
-            <p className="text-white font-bold text-lg">Prices</p>
-            <FaAngleDown className="text-white text-lg" />
+    <div
+      className="  min-h-screen
+      bg-[url('../public/hero-bg.svg')] bg-cover  "
+    >
+      <section className="pt-40 pb-12 text-white">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 mb-10 md:mb-0">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              GET 400% MORE LEADS with Real Estate Photography!
+            </h1>
+            <p className="text-xl mb-6">
+              #1 Real Estate Photography in South Florida
+            </p>
+            <Button
+              size="lg"
+              variant="secondary"
+              className="bg-green-500 text-white text-2xl"
+            >
+              Prices
+            </Button>
+          </div>
+          <div className="md:w-1/2">
+            <Image
+              src="https://firebasestorage.googleapis.com/v0/b/creative-feel-agency.appspot.com/o/Badimon%2FDJI_0347.jpg?alt=media&token=42b872b2-49ff-4699-a80a-e6c1e9b8eaf7"
+              alt="Real estate photography showcase"
+              unoptimized
+              width={600}
+              height={400}
+              className="rounded-lg shadow-xl"
+            />
           </div>
         </div>
-        <div className="md:w-1/2 items-center justify-center space-y-10">
-          <Image
-            src={"/images/DJI_0373.jpg"}
-            width={1000}
-            height={2000}
-            alt="Landscape"
-            className="rounded-tl-full rounded-br-full"
-          />
-        </div>
-      </div>
+      </section>
     </div>
   );
 }

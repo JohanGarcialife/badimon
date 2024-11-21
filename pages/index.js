@@ -1,22 +1,39 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Card, CardContent } from "@/components/ui/card";
+import HeroSection from "@/components/HeroSection";
+import Gallery from "@/components/Gallery";
+import Info from "@/components/Info";
+import Reviews from "@/components/Reviews";
 import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
-import HeroSection from "@/components/HeroSection";
 import Menu from "@/components/Menu";
-import Reviews from "@/components/Reviews";
-import Gallery from "@/components/Gallery";
-import VideoBanner from "@/components/VideoBanner";
-import Info from "@/components/Info";
 
-export default function Home() {
+export default function Component() {
+  const [selectedDate, setSelectedDate] = useState("");
+
   return (
-    <div className="bg-white min-h-screen">
+    <div className="min-h-screen bg-white">
       <Menu />
+      {/* Hero Section */}
       <HeroSection />
-      <Reviews />
-      <Info />
+
+      {/* Gallery Section */}
       <Gallery />
-      <VideoBanner />
+      {/* Reviews Section */}
+      <Reviews />
+      {/* Features Section */}
+      <Info />
+
+      {/* Booking Section */}
       <Booking />
+
+      {/* Footer */}
       <Footer />
     </div>
   );
